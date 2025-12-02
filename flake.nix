@@ -28,6 +28,7 @@
             # Additional development tools
             cargo-watch
             cargo-edit
+            just
           ];
 
           shellHook = ''
