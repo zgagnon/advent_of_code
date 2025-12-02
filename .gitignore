@@ -1,4 +1,22 @@
+# Haskell
 dist-newstyle/
-.direnv/
-.vscode
 .stack-work/
+
+# Rust
+target/
+Cargo.lock
+
+# Nix/direnv
+.direnv/
+result
+result-*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
