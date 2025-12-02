@@ -57,13 +57,13 @@ new day:
 
         #[test]
         fn test_part1() {
-            let input = "";
+            let input = include_str!("../../inputs/day{{day}}_example.txt");
             assert_eq!(part1(input), "expected");
         }
 
         #[test]
         fn test_part2() {
-            let input = "";
+            let input = include_str!("../../inputs/day{{day}}_example.txt");
             assert_eq!(part2(input), "expected");
         }
     }
