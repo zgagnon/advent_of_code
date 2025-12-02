@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(discovery-tree-workflow)",
+      "mcp__run-typescript-skills__run-skill-code",
+      "Skill(using-jj)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
