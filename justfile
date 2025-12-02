@@ -70,11 +70,12 @@ new day:
     EOF
     mkdir -p inputs
     touch inputs/day{{day}}.txt
-    echo "Created day{{day}} template"
+    touch inputs/day{{day}}_example.txt
+    echo "Created day{{day}} template with input files"
 
-# Format code
+# Format all Rust files
 fmt:
-    cargo fmt
+    cargo fmt --all
 
 # Run clippy lints
 lint:
