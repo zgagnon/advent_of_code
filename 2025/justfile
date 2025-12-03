@@ -6,19 +6,19 @@ run day:
 
 # Run tests for a specific day
 test day:
-    cargo test --bin day{{day}}
+    cargo test --bin day{{day}} -- --nocapture
 
 # Run all tests
 test-all:
-    cargo test
+    cargo test -- --nocapture
 
 # Run tests in watch mode
 watch day:
-    cargo watch -x "test --bin day{{day}}"
+    cargo watch -x "test --bin day{{day}} -- --nocapture"
 
 # Watch all tests
 watch-all:
-    cargo watch -x test
+    cargo watch -x "test -- --nocapture"
 
 # Build all binaries
 build:
